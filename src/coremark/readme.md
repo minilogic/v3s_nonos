@@ -1,6 +1,6 @@
 # V3S [CoreMark](https://www.eembc.org/coremark/)
 
-F1C100S performance on bare metal:
+V3S performance on bare metal:
 ```
 Allwinner V3S Coremark
 2K performance run parameters for coremark.
@@ -22,14 +22,14 @@ CoreMark 1.0 : 3102.218086 / GCC10.3.1 20210824 (release) -O3 / STACK
 ```
 Comparison with other popular chips:
 
-| Chip                                                                   | Freq (MHz) | CoreMark    |
-|------------------------------------------------------------------------|------------|-------------|
-| [V3S](./)                                                              | 1008       | 3102        |
-| [F1C100S](./)                                                          | 576        | 1296        |
-| [iMXRT1062](https://www.pjrc.com/store/teensy40_pins.html)             | 600        | 2314        |
-| [ESP32 S2](https://github.com/ochrin/coremark)                         | 80/160/240 | 157/315/472 |
-| [ESP8266](https://github.com/ochrin/coremark)                          | 80         | 191         |
-| [nRF52840](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.1.pdf) | 64         | 212         |
-| [STM32F427](https://github.com/hacklabos/CoremarkPlatform)             | 180        | 258         |
-| [STM32F103](https://github.com/hacklabos/CoremarkPlatform)             | 72/128     | 95/146      |
-| [RP2040](https://github.com/nickfox-taterli/pico-coremark)             | 125        | 157         |
+| Chip                                                                     | Freq (MHz) | CoreMark    |
+|--------------------------------------------------------------------------|------------|-------------|
+| [V3S](./)                                                                | 1008       | 3102        |
+| [F1C100S](https://github.com/minilogic/f1c_nonos/tree/main/src/coremark) | 576        | 1296        |
+| [iMXRT1062](https://www.pjrc.com/store/teensy40_pins.html)               | 600        | 2314        |
+| [ESP32 S2](https://github.com/ochrin/coremark)                           | 80/160/240 | 157/315/472 |
+| [ESP8266](https://github.com/ochrin/coremark)                            | 80         | 191         |
+| [nRF52840](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.1.pdf)   | 64         | 212         |
+| [STM32F427](https://github.com/hacklabos/CoremarkPlatform)               | 180        | 258         |
+| [STM32F103](https://github.com/hacklabos/CoremarkPlatform)               | 72/128     | 95/146      |
+| [RP2040](https://github.com/nickfox-taterli/pico-coremark)               | 125        | 157         |
