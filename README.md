@@ -4,14 +4,15 @@ These examples work without any operating system environment. It's like programm
 
 **Project directories:**
 
-| Name                         | Description                                |
-|------------------------------|--------------------------------------------|
-| [doc](./doc)                 | Documentation                              |
-| [drv](./drv)                 | Low-level drivers                          |
-| [lib](./lib)                 | Third-party libraries                      |
-| [src/tinygl](./src/tinygl)   | TinyGl 3D-demo examples                    |
-| [tools/sunxi](./tools/sunxi) | Tools for loading and flashing the SOC     |
-| [tools/zadig](./tools/zadig) | Windows tool for installing SOC-driver     |
+| Name                           | Description                                |
+|--------------------------------|--------------------------------------------|
+| [doc](./doc)                   | Documentation                              |
+| [drv](./drv)                   | Low-level drivers                          |
+| [lib](./lib)                   | Third-party libraries                      |
+| [src/tinygl](./src/tinygl)     | TinyGl 3D-demo examples                    |
+| [src/coremark](./src/coremark) | CoreMark Benchmark                         |
+| [tools/sunxi](./tools/sunxi)   | Tools for loading and flashing the SOC     |
+| [tools/zadig](./tools/zadig)   | Windows tool for installing SOC-driver     |
 
 **Useful links:**
 1. [XBOOT](https://github.com/xboot/xboot)
